@@ -1,0 +1,127 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< com.thehecklers:azure-ad-demo >--------------------
+[INFO] Building azure-ad-demo 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.2:tree (default-cli) @ azure-ad-demo ---
+[INFO] com.thehecklers:azure-ad-demo:jar:0.0.1-SNAPSHOT
+[INFO] +- org.springframework.boot:spring-boot-starter-oauth2-client:jar:2.4.7:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter:jar:2.4.7:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot:jar:2.4.7:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-autoconfigure:jar:2.4.7:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-starter-logging:jar:2.4.7:compile
+[INFO] |  |  |  +- ch.qos.logback:logback-classic:jar:1.2.3:compile
+[INFO] |  |  |  |  \- ch.qos.logback:logback-core:jar:1.2.3:compile
+[INFO] |  |  |  +- org.apache.logging.log4j:log4j-to-slf4j:jar:2.13.3:compile
+[INFO] |  |  |  |  \- org.apache.logging.log4j:log4j-api:jar:2.13.3:compile
+[INFO] |  |  |  \- org.slf4j:jul-to-slf4j:jar:1.7.30:compile
+[INFO] |  |  +- jakarta.annotation:jakarta.annotation-api:jar:1.3.5:compile
+[INFO] |  |  \- org.yaml:snakeyaml:jar:1.27:compile
+[INFO] |  +- com.sun.mail:jakarta.mail:jar:1.6.7:compile
+[INFO] |  |  \- com.sun.activation:jakarta.activation:jar:1.2.2:compile
+[INFO] |  +- org.springframework.security:spring-security-config:jar:5.4.6:compile
+[INFO] |  |  +- org.springframework:spring-aop:jar:5.3.8:compile
+[INFO] |  |  +- org.springframework:spring-beans:jar:5.3.8:compile
+[INFO] |  |  \- org.springframework:spring-context:jar:5.3.8:compile
+[INFO] |  +- org.springframework.security:spring-security-core:jar:5.4.6:compile
+[INFO] |  |  \- org.springframework:spring-expression:jar:5.3.8:compile
+[INFO] |  +- org.springframework.security:spring-security-oauth2-client:jar:5.4.6:compile
+[INFO] |  |  +- com.nimbusds:oauth2-oidc-sdk:jar:8.36.1:compile
+[INFO] |  |  |  +- com.nimbusds:content-type:jar:2.1:compile
+[INFO] |  |  |  \- com.nimbusds:lang-tag:jar:1.4.4:compile
+[INFO] |  |  \- org.springframework.security:spring-security-oauth2-core:jar:5.4.6:compile
+[INFO] |  \- org.springframework.security:spring-security-oauth2-jose:jar:5.4.6:compile
+[INFO] +- org.springframework.boot:spring-boot-starter-web:jar:2.4.7:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-json:jar:2.4.7:compile
+[INFO] |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.11.4:compile
+[INFO] |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.11.4:compile
+[INFO] |  |  \- com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.11.4:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-tomcat:jar:2.4.7:compile
+[INFO] |  |  +- org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.46:compile
+[INFO] |  |  +- org.glassfish:jakarta.el:jar:3.0.3:compile
+[INFO] |  |  \- org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.46:compile
+[INFO] |  +- org.springframework:spring-web:jar:5.3.8:compile
+[INFO] |  \- org.springframework:spring-webmvc:jar:5.3.8:compile
+[INFO] +- com.azure.spring:azure-spring-boot-starter-active-directory:jar:3.5.0:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-validation:jar:2.4.7:compile
+[INFO] |  |  \- org.hibernate.validator:hibernate-validator:jar:6.1.7.Final:compile
+[INFO] |  |     +- jakarta.validation:jakarta.validation-api:jar:2.0.2:compile
+[INFO] |  |     +- org.jboss.logging:jboss-logging:jar:3.4.2.Final:compile
+[INFO] |  |     \- com.fasterxml:classmate:jar:1.5.1:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-webflux:jar:2.4.7:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-starter-reactor-netty:jar:2.4.7:compile
+[INFO] |  |  \- org.springframework:spring-webflux:jar:5.3.8:compile
+[INFO] |  |     \- io.projectreactor:reactor-core:jar:3.4.6:compile
+[INFO] |  |        \- org.reactivestreams:reactive-streams:jar:1.0.3:compile
+[INFO] |  +- com.azure.spring:azure-spring-boot:jar:3.5.0:compile
+[INFO] |  |  +- org.slf4j:slf4j-api:jar:1.7.30:compile
+[INFO] |  |  +- javax.validation:validation-api:jar:2.0.1.Final:compile
+[INFO] |  |  +- javax.annotation:javax.annotation-api:jar:1.3.2:compile
+[INFO] |  |  \- net.minidev:json-smart:jar:2.3.1:compile
+[INFO] |  |     \- net.minidev:accessors-smart:jar:2.3.1:compile
+[INFO] |  |        \- org.ow2.asm:asm:jar:5.0.4:compile
+[INFO] |  +- org.springframework.security:spring-security-web:jar:5.4.6:compile
+[INFO] |  +- com.microsoft.azure:msal4j:jar:1.9.1:compile
+[INFO] |  +- com.nimbusds:nimbus-jose-jwt:jar:8.20.2:compile
+[INFO] |  |  \- com.github.stephenc.jcip:jcip-annotations:jar:1.0-1:compile
+[INFO] |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.11.4:compile
+[INFO] |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.11.4:compile
+[INFO] |  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.11.4:compile
+[INFO] |  \- io.projectreactor.netty:reactor-netty:jar:1.0.7:compile
+[INFO] |     +- io.projectreactor.netty:reactor-netty-core:jar:1.0.7:compile
+[INFO] |     |  +- io.netty:netty-handler:jar:4.1.65.Final:compile
+[INFO] |     |  |  +- io.netty:netty-common:jar:4.1.65.Final:compile
+[INFO] |     |  |  +- io.netty:netty-resolver:jar:4.1.65.Final:compile
+[INFO] |     |  |  +- io.netty:netty-buffer:jar:4.1.65.Final:compile
+[INFO] |     |  |  +- io.netty:netty-transport:jar:4.1.65.Final:compile
+[INFO] |     |  |  \- io.netty:netty-codec:jar:4.1.65.Final:compile
+[INFO] |     |  +- io.netty:netty-handler-proxy:jar:4.1.65.Final:compile
+[INFO] |     |  |  \- io.netty:netty-codec-socks:jar:4.1.65.Final:compile
+[INFO] |     |  +- io.netty:netty-resolver-dns:jar:4.1.65.Final:compile
+[INFO] |     |  |  \- io.netty:netty-codec-dns:jar:4.1.65.Final:compile
+[INFO] |     |  +- io.netty:netty-resolver-dns-native-macos:jar:osx-x86_64:4.1.65.Final:compile
+[INFO] |     |  |  \- io.netty:netty-transport-native-unix-common:jar:4.1.65.Final:compile
+[INFO] |     |  \- io.netty:netty-transport-native-epoll:jar:linux-x86_64:4.1.65.Final:compile
+[INFO] |     +- io.projectreactor.netty:reactor-netty-http:jar:1.0.7:compile
+[INFO] |     |  +- io.netty:netty-codec-http:jar:4.1.65.Final:compile
+[INFO] |     |  \- io.netty:netty-codec-http2:jar:4.1.65.Final:compile
+[INFO] |     \- io.projectreactor.netty:reactor-netty-http-brave:jar:1.0.7:runtime
+[INFO] |        \- io.zipkin.brave:brave-instrumentation-http:jar:5.13.3:runtime
+[INFO] |           \- io.zipkin.brave:brave:jar:5.13.3:runtime
+[INFO] |              \- io.zipkin.reporter2:zipkin-reporter-brave:jar:2.16.3:runtime
+[INFO] |                 \- io.zipkin.reporter2:zipkin-reporter:jar:2.16.3:runtime
+[INFO] |                    \- io.zipkin.zipkin2:zipkin:jar:2.23.2:runtime
+[INFO] \- org.springframework.boot:spring-boot-starter-test:jar:2.4.7:test
+[INFO]    +- org.springframework.boot:spring-boot-test:jar:2.4.7:test
+[INFO]    +- org.springframework.boot:spring-boot-test-autoconfigure:jar:2.4.7:test
+[INFO]    +- com.jayway.jsonpath:json-path:jar:2.4.0:test
+[INFO]    +- jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.3:test
+[INFO]    |  \- jakarta.activation:jakarta.activation-api:jar:1.2.2:test
+[INFO]    +- org.assertj:assertj-core:jar:3.18.1:test
+[INFO]    +- org.hamcrest:hamcrest:jar:2.2:test
+[INFO]    +- org.junit.jupiter:junit-jupiter:jar:5.7.2:test
+[INFO]    |  +- org.junit.jupiter:junit-jupiter-api:jar:5.7.2:test
+[INFO]    |  |  +- org.apiguardian:apiguardian-api:jar:1.1.0:test
+[INFO]    |  |  +- org.opentest4j:opentest4j:jar:1.2.0:test
+[INFO]    |  |  \- org.junit.platform:junit-platform-commons:jar:1.7.2:test
+[INFO]    |  +- org.junit.jupiter:junit-jupiter-params:jar:5.7.2:test
+[INFO]    |  \- org.junit.jupiter:junit-jupiter-engine:jar:5.7.2:test
+[INFO]    |     \- org.junit.platform:junit-platform-engine:jar:1.7.2:test
+[INFO]    +- org.mockito:mockito-core:jar:3.6.28:test
+[INFO]    |  +- net.bytebuddy:byte-buddy:jar:1.10.22:test
+[INFO]    |  +- net.bytebuddy:byte-buddy-agent:jar:1.10.22:test
+[INFO]    |  \- org.objenesis:objenesis:jar:3.1:test
+[INFO]    +- org.mockito:mockito-junit-jupiter:jar:3.6.28:test
+[INFO]    +- org.skyscreamer:jsonassert:jar:1.5.0:test
+[INFO]    |  \- com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:test
+[INFO]    +- org.springframework:spring-core:jar:5.3.8:compile
+[INFO]    |  \- org.springframework:spring-jcl:jar:5.3.8:compile
+[INFO]    +- org.springframework:spring-test:jar:5.3.8:test
+[INFO]    \- org.xmlunit:xmlunit-core:jar:2.7.0:test
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.802 s
+[INFO] Finished at: 2021-06-11T15:28:05-05:00
+[INFO] ------------------------------------------------------------------------

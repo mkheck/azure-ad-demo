@@ -1,0 +1,11 @@
+= Azure Active Directory example Spring Boot + Spring Security application
+
+== Maintainer
+
+* Mark Heckler
+* mailto:mark@thehecklers.com[mark@thehecklers.com]
+* https://twitter.com/mkheck[@mkheck on Twitter]
+
+== Purpose
+
+This repo contains example code based upon this published guide, https://docs.microsoft.com/en-us/azure/developer/java/spring-framework/configure-spring-boot-starter-java-app-with-azure-active-directory[Tutorial: Secure a Java web app using the Spring Boot Starter for Azure Active Directory], with minor revisions.
